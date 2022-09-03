@@ -1,11 +1,12 @@
+
 let fs = require('fs')
 let handler = async (m) => {
 let helloaine = fs.readFileSync('./MP3/waalaikumsalam.opus')
 conn.sendFile(m.chat, helloaine, '', '', m, true)
 }
-handler.help = ['Assalamualaikum']
+handler.help = ['kak desah dong']
 
-handler.tags = ['main']
+handler.tags = ['gabut']
 handler.customPrefix = /^(Assalamualaikum)$/i
 handler.command = new RegExp
 
