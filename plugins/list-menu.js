@@ -6,7 +6,7 @@ let _uptime = process.uptime() * 1000
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
    let ar = ['list', 'menu']
    let ras = `*Hai Kak Nama Saya Dita Saya Adalah Robot WhatsApp 👋*`
-   let sel = ``
+   let sel = `*Click Di Bawah Untuk Melihat Semua Menu* `
     let rs = `*MENU*`
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
