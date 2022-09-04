@@ -202,7 +202,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herok
               description: 'Made With ❤️ TioXd', 
               mediaType: 2,  
             thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+           mediaUrl: `https://www.facebook.com/profile.php?id=100077142458119` 
           }  
        }  
       })
